@@ -1,0 +1,122 @@
+(i) html :-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aditya kumar singh</h1>
+        <p>Computer Engineer.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="dheeraj.jpg" alt="Aditya kumar singh" id="profile-pic">
+        <p>Write a short bio highlighting your skills and experience.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>1. Web Developer</li>
+            <li>2. Can speak fluent english.</li>
+            <li>3. Good chess player.</li>
+            <li>Love to read books.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of the project goes here.</p>
+            <img src="project-image1.jpg" alt="Project 1">
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of the project goes here.</p>
+            <img src="project-image2.jpg" alt="Project 2">
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="your-resume.pdf" download>Download My Resume</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: 2201030400001.silveroakuni.ac.in</p>
+        <p>Phone: (+91) 8271232824</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p><a href="https://yourwebsite.com">Your Website</a></p>
+    </footer>
+</body>
+</html>
+
+
+(ii) css styles.
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
